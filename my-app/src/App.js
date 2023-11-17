@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
-import Wave from 'react-wavify'
+// import Wave from 'react-wavify'
 
 function App() {
 
@@ -11,8 +11,9 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <Header />
-        <Body />
-        {/* <div style={{ display: 'flex', position: 'relative' }}>
+        <Routes>
+          <Route path="/React_project" element={<Body />}>
+            {/* <div style={{ display: 'flex', position: 'relative' }}>
           <Wave fill='rgb(210, 217, 208)'
             paused={false}
             options={{
@@ -32,6 +33,11 @@ function App() {
             }}
             style={{ position: 'absolute', bottom: 0 }} />
         </div> */}
+          </Route>
+
+
+        </Routes>
+
         <Footer path="/contacts" style={{ position: 'relative' }} />
       </div>
 
