@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Olifer_Art/static/css/main.c01ea530.css",
+    "main.js": "/Olifer_Art/static/js/main.e6b394b5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Olifer_Art/static/js/787.28cb0dcd.chunk.js",
+    "static/media/foto.png": "/Olifer_Art/static/media/foto.01fa779dcc3733b3d460.png",
+    "static/media/logo.jpg": "/Olifer_Art/static/media/logo.524ac6ecaaa59e292c7a.jpg",
+    "static/media/Calibri_bold.ttf": "/Olifer_Art/static/media/Calibri_bold.952f1ae64afe47a25173.ttf",
+    "static/media/Inter-Bold.ttf": "/Olifer_Art/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/Olifer_Art/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Regular.ttf": "/Olifer_Art/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Nunito-Regular.ttf": "/Olifer_Art/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
+    "static/media/Annabelle.ttf": "/Olifer_Art/static/media/Annabelle.ac3a622104aae97d1961.ttf",
+    "static/media/map.png": "/Olifer_Art/static/media/map.7c0ca79fe49e88bcdb44.png",
+    "index.html": "/Olifer_Art/index.html",
+    "main.c01ea530.css.map": "/Olifer_Art/static/css/main.c01ea530.css.map",
+    "main.e6b394b5.js.map": "/Olifer_Art/static/js/main.e6b394b5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Olifer_Art/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c01ea530.css",
+    "static/js/main.e6b394b5.js"
+  ]
+}
