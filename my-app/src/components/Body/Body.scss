@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Annabelle";
-    src: url(../../assets/fonts/Annabelle.ttf);
-}
-
-@font-face {
     font-family: "Inter";
     src: url(../../assets/fonts/Inter-Regular.ttf);
 }
@@ -34,6 +29,7 @@
     width: calc((100vw + 654px) / 5);
     height: calc((100vw + 654px) / 5);
     border-radius: 50%;
+
     // margin-top: calc((100vw + 365px) / 36);
     // margin-bottom: calc((100vw + 365px) / 36);
     // margin-right: calc((100vw + 365px) / 36);
@@ -43,6 +39,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: calc(100vh - 50px);
+
+    &::after {
+        content: "";
+        background-image: url('./fon3.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        /* Установите желаемую прозрачность фонового изображения */
+        z-index: -1;
+    }
+
     // background: linear-gradient(60deg, rgb(180, 131, 120), rgb(253, 217, 208));
 
     &__item {
@@ -54,14 +66,14 @@
         gap: 1.5em;
         margin: 5em 1em 1em 1em;
 
-
         &_title {
             display: flex;
             flex-direction: column;
-            // font-family: "Annabelle", sans-serif;
             // font-size: calc((100vw + 2748px) / 104);
             justify-content: center;
             // margin-left: 50px;
+            width: 30%;
+            min-width: 234px;
 
             h2 {
                 margin: 10px;
@@ -69,9 +81,7 @@
         }
 
         &_title-text {
-            font-size: calc((100vw + 1700px) / 104);
-            font-family: "Annabelle", sans-serif;
-            margin: 0;
+            font-size: calc((100vw + 1700px) / 120);
         }
     }
 
@@ -84,32 +94,19 @@
 
         button {
             margin: 10px 10px 20px 10px;
-            height: 100px;
-            width: 200px;
+            height: 150px;
+            width: 300px;
             border-radius: 10px;
-            background-color: rgb(253, 217, 208);
+            background-color: rgb(251, 234, 237);
             cursor: pointer;
-            font-family: "Annabelle", sans-serif;
-            font-size: calc((100vw + 1700px) / 104);
-            font-weight: 500;
+            font-size: calc((100vw + 3590px) / 215);
 
             &:hover {
-                height: 105px;
-                width: 205px;
-                background-color: rgb(233, 193, 184);
-                font-size: calc((100vw + 1700px) / 90);
+                height: 155px;
+                width: 305px;
+                background-color: rgb(229, 186, 193);
+                font-size: calc((100vw + 3590px) / 200)
             }
         }
     }
-}
-
-p {
-    font-family: "Inter";
-
-
-}
-
-span {
-    font-size: calc((100vw + 200px) / 30);
-    font-family: "Annabelle", sans-serif;
 }

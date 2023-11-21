@@ -3,6 +3,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
+import PillowsBlankets from './components/PillowsBlankets/PillowsBlankets';
+import Fancywork from './components/Fancywork/Fancywork';
+import Contact from './components/Contact/Contact';
+// import { Questions } from './components/Questions/App';
+
 // import Wave from 'react-wavify'
 
 function App() {
@@ -12,8 +17,8 @@ function App() {
       <div className='App'>
         <Header />
         <Routes>
-          <Route path="/React_project" element={<Body />}>
-            {/* <div style={{ display: 'flex', position: 'relative' }}>
+          <Route path="/" element={<Body style={{ flexGrow: 1 }} />} />
+          {/* <div style={{ display: 'flex', position: 'relative' }}>
           <Wave fill='rgb(210, 217, 208)'
             paused={false}
             options={{
@@ -33,14 +38,17 @@ function App() {
             }}
             style={{ position: 'absolute', bottom: 0 }} />
         </div> */}
-          </Route>
+          <Route path="/PillowsBlankets" element={<PillowsBlankets />} />
+          <Route path="/Fancywork" element={<Fancywork />} />
+          <Route path="/Contact" element={<Contact />} />
 
+          {/* <Route path="/Questions" element={<Questions />} /> */}
 
         </Routes>
+        {/* <Body /> */}
 
-        <Footer path="/contacts" style={{ position: 'relative' }} />
+        <Footer />
       </div>
-
     </BrowserRouter>
   );
 }

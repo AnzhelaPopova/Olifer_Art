@@ -1,6 +1,8 @@
 import React from 'react';
 import foto from './foto.png';
-import './Body.css';
+import './Body.scss';
+import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact'
 
 function Body(props) {
   return (
@@ -8,15 +10,22 @@ function Body(props) {
       <div className='body__item'>
         <img src={foto} className="foto" alt="foto" />
         <div className='body__item_title'>
-          <h2>Мастерская <br /><span>Анны Олифер</span> </h2>
-          <p className='body__item_title-text'>Самый уютный домашний текстиль</p>
+          <h1>Мастерская домашнего уюта </h1>
+          <p className='body__item_title-text'>Здравствуйте! Меня зовут Анна и я помогаю вам содержать ваш дом в чистоте и красоте</p>
         </div>
       </div>
       <div className='body__button'>
-        <button>Пух и перо</button>
-        <button>Вышивка</button>
+        <Link to="/Clean">
+          <button>Подушки/Одеяла</button>
+        </Link>
+        <Link to="/Fancywork">
+          <button>Текстильные изделия для дома и личного пользования</button>
+        </Link>
+
       </div>
     </div >
   );
 }
+<Contact />
+
 export default Body;
