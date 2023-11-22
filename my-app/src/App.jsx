@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import PillowsBlankets from './components/PillowsBlankets/PillowsBlankets';
 import Fancywork from './components/Fancywork/Fancywork';
 import Contact from './components/Contact/Contact';
+import Clean from './components/Clean/Clean';
+import NewPillowsBlankets from './components/NewPillowsBlankets/NewPillowsBlankets';
 // import { Questions } from './components/Questions/App';
 
 // import Wave from 'react-wavify'
@@ -39,8 +41,10 @@ function App() {
             style={{ position: 'absolute', bottom: 0 }} />
         </div> */}
           <Route path="/PillowsBlankets" element={<PillowsBlankets />} />
+          <Route path="/NewPillowsBlankets" element={<NewPillowsBlankets />} />
           <Route path="/Fancywork" element={<Fancywork />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Clean" element={<Clean />} />
 
           {/* <Route path="/Questions" element={<Questions />} /> */}
 

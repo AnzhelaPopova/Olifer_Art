@@ -15,7 +15,7 @@ function Body(props) {
         </div>
       </div>
       <div className='body__button'>
-        <Link to="/Clean">
+        <Link to="/PillowsBlankets">
           <button>Подушки/Одеяла</button>
         </Link>
         <Link to="/Fancywork">
