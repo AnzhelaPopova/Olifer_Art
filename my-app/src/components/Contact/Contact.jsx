@@ -6,7 +6,7 @@ import VkImg from './img/vk.png'
 import mapImg from './img/map.png'
 
 
-function Contact() {
+export default function Contact() {
   return (
     <contact className="contact">
       <div className='contact__item'>
@@ -33,13 +33,13 @@ function Contact() {
               src={VkImg}
               alt="ВКонтакте"
             />
-            <a href="vk.com/puhpero_shodnya">vk.com/puhpero_shodnya</a>
+            <a href="http://vk.com/puhpero_shodnya">vk.com/puhpero_shodnya</a>
             <img
               class="main-contact-social__img"
               src={TelegramImg}
               alt="Телеграм"
             />
-            <a href="t.me/OliferAnna">t.me/OliferAnna</a>
+            <a href="http://t.me/OliferAnna">t.me/OliferAnna</a>
 
           </div>
           <h3><b>Время работы:</b></h3>
@@ -51,5 +51,3 @@ function Contact() {
     </contact >
   );
 }
-
-export default Contact;

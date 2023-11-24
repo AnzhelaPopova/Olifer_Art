@@ -8,53 +8,30 @@ import Fancywork from './components/Fancywork/Fancywork';
 import Contact from './components/Contact/Contact';
 import Clean from './components/Clean/Clean';
 import NewPillowsBlankets from './components/NewPillowsBlankets/NewPillowsBlankets';
-// import { Questions } from './components/Questions/App';
+import FAQItem from './components/FAQ/FAQItem';
+import data from './components/FAQ/data.json'
 
-// import Wave from 'react-wavify'
+export default function App() {
 
-function App() {
+  const questions = data.questions;
 
   return (
     <BrowserRouter>
       <div className='App'>
         <Header />
         <Routes>
-          <Route path="/" element={<Body style={{ flexGrow: 1 }} />} />
-          {/* <div style={{ display: 'flex', position: 'relative' }}>
-          <Wave fill='rgb(210, 217, 208)'
-            paused={false}
-            options={{
-              height: 20,
-              amplitude: 20,
-              speed: 0.15,
-              points: 3
-            }}
-            style={{ position: 'absolute', bottom: 0 }} />
-          <Wave fill='rgba(240, 217, 208, 0.5)'
-            paused={false}
-            options={{
-              height: 30,
-              amplitude: 30,
-              speed: 0.1,
-              points: 5
-            }}
-            style={{ position: 'absolute', bottom: 0 }} />
-        </div> */}
+          <Route path="/" element={<Body />} />
           <Route path="/PillowsBlankets" element={<PillowsBlankets />} />
           <Route path="/NewPillowsBlankets" element={<NewPillowsBlankets />} />
           <Route path="/Fancywork" element={<Fancywork />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Clean" element={<Clean />} />
-
-          {/* <Route path="/Questions" element={<Questions />} /> */}
+          <Route path="/Questions" element={<FAQItem questions={questions} />} />
 
         </Routes>
-        {/* <Body /> */}
 
         <Footer />
       </div>
     </BrowserRouter>
   );
 }
-
-export default App;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Inter";
   src: url(../../assets/fonts/Inter-Regular.ttf);
@@ -41,7 +40,6 @@
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  /* Установите желаемую прозрачность фонового изображения */
   z-index: -1;
 }
 .body__item {

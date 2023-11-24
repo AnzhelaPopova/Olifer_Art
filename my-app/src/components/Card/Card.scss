@@ -1,5 +1,28 @@
-.card-card {
+.card {
     margin: 20px 1px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(229, 186, 193);
+
+    & a button {
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+            height: 55px;
+            width: 105px;
+            background-color: rgb(229, 186, 193);
+            font-size: 20px;
+        }
+    }
+
+    &__time {
+        font-size: 20px;
+        padding: 20px;
+    }
 }
 
 .card-name {
@@ -7,20 +30,9 @@
     color: white;
     padding: 20px;
     margin: 1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
-
-.card-speed {
-    font-size: 20px;
-    padding: 20px;
-}
-
-// p {
-//     color: white;
-//     padding: 20px;
-//     margin: 1px;
-//     font-size: 60px;
-// }
-
 
 .card-info {
     font-size: 20px;
@@ -36,34 +48,14 @@ span {
     background-color: rgb(33, 156, 170);
 }
 
-.blue-card p {
-    background-color: rgb(44, 193, 213);
-}
-
 .green-card .card-name {
     background-color: rgb(31, 136, 114);
-}
-
-.green-card p {
-    background-color: rgb(36, 174, 141);
 }
 
 .red-card .card-name {
     background-color: rgb(196, 85, 78);
 }
 
-.red-card p {
-    background-color: rgb(244, 106, 95);
-}
-
 .black-card .card-name {
     background-color: rgb(40, 46, 55);
-}
-
-.black-card p {
-    background-color: rgb(50, 58, 66);
-}
-
-.selected {
-    border: black solid 2px;
 }

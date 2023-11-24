@@ -4,7 +4,7 @@ import './Body.scss';
 import { Link } from 'react-router-dom';
 import Contact from '../Contact/Contact'
 
-function Body(props) {
+export default function Body(props) {
   return (
     <div className='body' >
       <div className='body__item'>
@@ -27,5 +27,3 @@ function Body(props) {
   );
 }
 <Contact />
-
-export default Body;
