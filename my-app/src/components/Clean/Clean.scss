@@ -5,18 +5,41 @@
     min-height: calc(100vh - 50px);
     align-items: center;
 
-    & ul {
-        list-style-type: none
+    &__card_clean {
+        height: 410px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        & ul {
+            list-style-type: none;
+            align-items: center;
+        }
     }
 
     & h2 {
-        margin: 70px 2em 0 2em;
+        margin: 1.5em 2em 0 2em;
         text-align: center;
     }
 
     & p {
-        margin: 1em 2em;
+        display: flex;
+        justify-content: center;
+
+        & td {
+            padding: 0 10px;
+        }
+
+
     }
+
+    // & .card {
+    //     height: 410px;
+    // }
 
     &::after {
         content: "";

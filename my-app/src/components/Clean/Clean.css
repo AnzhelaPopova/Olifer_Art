@@ -5,15 +5,29 @@
   min-height: calc(100vh - 50px);
   align-items: center;
 }
-.container ul {
+.container__card_clean {
+  height: 410px;
+}
+.container__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.container__list ul {
   list-style-type: none;
+  align-items: center;
 }
 .container h2 {
-  margin: 70px 2em 0 2em;
+  margin: 1.5em 2em 0 2em;
   text-align: center;
 }
 .container p {
-  margin: 1em 2em;
+  display: flex;
+  justify-content: center;
+}
+.container p td {
+  padding: 0 10px;
 }
 .container::after {
   content: "";

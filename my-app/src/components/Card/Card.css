@@ -3,6 +3,10 @@
   background-color: white;
   border-radius: 10px;
   border: 2px solid rgb(229, 186, 193);
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card a button {
   height: 50px;
@@ -10,6 +14,7 @@
   border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  align-items: end;
 }
 .card a button:hover {
   height: 55px;
@@ -17,9 +22,8 @@
   background-color: rgb(229, 186, 193);
   font-size: 20px;
 }
-.card__time {
-  font-size: 20px;
-  padding: 20px;
+.card__description {
+  padding-bottom: 10px;
 }
 
 .card-name {
@@ -29,16 +33,6 @@
   margin: 1px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-}
-
-.card-info {
-  font-size: 20px;
-  background-color: rgb(239, 232, 232);
-  padding: 20px;
-}
-
-span {
-  font-size: 20px;
 }
 
 .blue-card .card-name {

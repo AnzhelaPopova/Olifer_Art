@@ -7,21 +7,18 @@
   max-width: 800px;
   margin: auto;
   min-height: calc(100vh - 70px);
-
-
-
-  &::after {
-    content: "";
-    background-image: url('../Body/fon3.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
-    z-index: -1;
-  }
+}
+.container_question::after {
+  content: "";
+  background-image: url("../Body/fon3.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .container_question .questionItem {
@@ -43,4 +40,4 @@
 h2 {
   padding-top: 30px;
   text-align: center;
-}
+}/*# sourceMappingURL=FAQItem.css.map */

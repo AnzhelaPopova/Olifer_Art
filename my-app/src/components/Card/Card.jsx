@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.scss';
 
-export default function Card({ name, price, time, color }) {
+export default function Card({ name, price, description, color }) {
     const cardClass = `card ${color}-card`
     return (
         <div className="card-card ">
@@ -9,7 +9,7 @@ export default function Card({ name, price, time, color }) {
                 <div className="card-name">{name}</div>
                 <p> {price}</p>
 
-                <div className="card__time">{time}</div>
+                <div className="card__description">{description}</div>
                 <a href="http://t.me/OliferAnna">
                     <button className='card__button '>
                         Заказать
