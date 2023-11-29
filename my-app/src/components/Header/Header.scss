@@ -1,47 +1,114 @@
-.button {
-  display: flex;
-  justify-content: center;
+@import '../../assets/variables.scss';
+
+@media screen and (min-width: 769px) {
+  .cardHeader__mbl {
+    display: none;
+  }
+
+  .img_logo {
+    margin: auto;
+  }
+
+  .cardHeader__desktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
+    z-index: 100;
+    font-size: 16px;
+    color: rgb(91, 89, 89);
+
+    & .logo {
+      height: 50px;
+      cursor: pointer;
+
+    }
+
+    & ul {
+      width: 60%;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin: auto;
+
+      & li {
+        margin: 0 10px;
+        display: flex;
+        justify-content: space-between;
+
+      }
+    }
+
+    // .cardHeader nav ul li a {
+    //   text-decoration: none;
+    //   color: rgb(91, 89, 89);
+    //   font-size: 18px;
+    // }
+
+    & ul li a:hover {
+      color: rgb(236, 59, 59);
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
 }
 
-.img_logo {
-  margin: auto;
-}
+@media screen and (max-width: 768px) {
+  .cardHeader__desktop {
+    display: none;
+  }
 
-.cardHeader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
-  z-index: 100;
-  font-size: 16px;
-  color: rgb(91, 89, 89);
-}
+  .cardHeader__mbl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 
-.cardHeader .logo {
-  height: 50px;
-  cursor: pointer;
-  background-color: rgb(253, 217, 208);
-}
+    background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-.cardHeader nav ul {
-  width: 60%;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  margin: auto;
-}
+    & a {
+      align-self: center;
+    }
 
-.cardHeader nav ul li a {
-  text-decoration: none;
-  color: rgb(91, 89, 89);
-  font-size: 18px;
-}
+    & .logo {
+      height: 50px;
+    }
 
-.cardHeader nav ul li a:hover {
-  color: rgb(236, 59, 59);
-  font-size: 20px;
-  font-weight: 500;
+    & img {
+      padding: 0 10px;
+      cursor: pointer;
+
+      &.logo_close {
+        width: 30px;
+      }
+    }
+  }
+
+
+  .modal-main {
+    display: flex;
+    flex-direction: column;
+
+    & a {
+      padding: 10px;
+      text-decoration: none;
+
+      &:hover {
+        font-size: 20px;
+        color: red;
+      }
+    }
+  }
+
+  .cardHeader nav ul {
+    display: flex;
+    flex-direction: column;
+  }
 }

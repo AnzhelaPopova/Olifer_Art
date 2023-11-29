@@ -64,6 +64,13 @@
 .body__item_title-text {
   font-size: calc((100vw + 1700px) / 120);
 }
+.body__item_title-text ul {
+  list-style-type: none;
+}
+.body__item_title-text ul li {
+  text-align: start;
+  list-style-type: none;
+}
 .body__button {
   display: flex;
   flex-direction: row;

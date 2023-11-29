@@ -40,6 +40,11 @@ const Cards = [
                         <td>200х210</td>
                         <td>5700р</td>
                     </tr>
+                    <tr>
+                        <td>Супер Евро</td>
+                        <td>220х240</td>
+                        <td>6300р</td>
+                    </tr>
                 </table>
             </>
         ),
@@ -117,7 +122,7 @@ export default function Clean() {
             <div className="container__card">
                 {
                     Cards.map((card) =>
-                        <Card className="container__card_clean"
+                        <Card height="410px"
                             key={card.key}
                             name={card.name}
                             price={card.price}

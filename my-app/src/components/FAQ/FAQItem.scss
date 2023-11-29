@@ -1,3 +1,5 @@
+@import '../../assets/variables.scss';
+
 .container_question {
   font-family: Arial, sans-serif;
   font-weight: bold;
@@ -5,9 +7,8 @@
   cursor: pointer;
   padding: 10px 0;
   max-width: 800px;
-  margin: auto;
   min-height: calc(100vh - 70px);
-
+  margin: auto;
 
 
   &::after {
@@ -28,7 +29,7 @@
   font-weight: bold;
   border: 1px solid black;
   padding: 10px;
-  background-color: rgb(229, 186, 193);
+  background-color: $basic-color;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -43,4 +44,10 @@
 h2 {
   padding-top: 30px;
   text-align: center;
+}
+
+@media screen and (max-width: 842px) {
+  .container_question {
+    margin: 0 10px;
+  }
 }

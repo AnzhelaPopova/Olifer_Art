@@ -5,8 +5,8 @@
   cursor: pointer;
   padding: 10px 0;
   max-width: 800px;
-  margin: auto;
   min-height: calc(100vh - 70px);
+  margin: auto;
 }
 .container_question::after {
   content: "";
@@ -40,4 +40,10 @@
 h2 {
   padding-top: 30px;
   text-align: center;
+}
+
+@media screen and (max-width: 842px) {
+  .container_question {
+    margin: 0 10px;
+  }
 }/*# sourceMappingURL=FAQItem.css.map */

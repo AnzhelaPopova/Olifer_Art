@@ -1,6 +1,8 @@
+@import '../../assets/variables.scss';
+
 .footer {
     display: flex;
     justify-content: center;
-    background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
+    background: linear-gradient(60deg, $basic-color, $main-color);
     height: 50px;
 }

@@ -1,10 +1,13 @@
 import React from 'react';
 import './Card.scss';
 
-export default function Card({ name, price, description, color }) {
-    const cardClass = `card ${color}-card`
+export default function Card({ name, price, description, color, height }) {
+    const cardClass = `card ${color}-card`;
+    const cardStyles = {
+        height: height || '410px'
+    };
     return (
-        <div className="card-card ">
+        <div className="card-card " style={cardStyles}>
             <div className={cardClass}>
                 <div className="card-name">{name}</div>
                 <p> {price}</p>

@@ -67,10 +67,22 @@
             h2 {
                 margin: 10px;
             }
+
         }
 
         &_title-text {
             font-size: calc((100vw + 1700px) / 120);
+
+
+            & ul {
+                list-style-type: none;
+
+                & li {
+                    text-align: start;
+                    list-style-type: none;
+
+                }
+            }
         }
     }
 

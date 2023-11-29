@@ -1,0 +1,19 @@
+@import '../../assets/variables.scss';
+
+.modal {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
