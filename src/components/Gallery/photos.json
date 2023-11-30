@@ -19,7 +19,7 @@
     },
     {
         "id": 4,
-        "image": "./img/photo1.jpg",
+        "image": "./photo/photo1.jpg",
         "title": "Фотография 4",
         "category": "pillow"
     },
