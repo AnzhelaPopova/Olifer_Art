@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
+    background: linear-gradient(60deg, $basic-color, $main-color);
     z-index: 100;
     font-size: 16px;
     color: rgb(91, 89, 89);
@@ -22,7 +22,10 @@
     & .logo {
       height: 50px;
       cursor: pointer;
+    }
 
+    & a {
+      text-decoration: none;
     }
 
     & ul {
@@ -37,15 +40,8 @@
         margin: 0 10px;
         display: flex;
         justify-content: space-between;
-
       }
     }
-
-    // .cardHeader nav ul li a {
-    //   text-decoration: none;
-    //   color: rgb(91, 89, 89);
-    //   font-size: 18px;
-    // }
 
     & ul li a:hover {
       color: rgb(236, 59, 59);
@@ -67,7 +63,7 @@
     width: 100%;
     z-index: 100;
 
-    background: linear-gradient(60deg, rgb(229, 186, 193), rgb(251, 234, 237));
+    background: linear-gradient(60deg, $basic-color, $main-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,6 +83,8 @@
 
       &.logo_close {
         width: 30px;
+        align-self: flex-end;
+        margin: 0 17px;
       }
     }
   }

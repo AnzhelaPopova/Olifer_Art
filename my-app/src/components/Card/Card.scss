@@ -5,11 +5,10 @@
     background-color: white;
     border-radius: 10px;
     border: 2px solid $basic-color;
-    max-width: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // height: 410px;
 
     & a button {
         height: 50px;

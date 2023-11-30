@@ -7,15 +7,18 @@
     min-height: calc(100vh - 50px);
     align-items: center;
 
-    &__card_clean {
-        height: 410px;
+    &__Clean {
+        padding: 1em 0.5em 3em 0.5em;
     }
+
+
 
     &__list {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: calc((100vw - 393px) / 21);
+        justify-content: center;
 
         & ul {
             list-style-type: none;
@@ -35,17 +38,11 @@
         & td {
             padding: 0 10px;
         }
-
-
     }
-
-    // & .card {
-    //     height: 410px;
-    // }
 
     &::after {
         content: "";
-        background-image: url('../Body/fon3.jpg');
+        background-image: $bg-image;
         background-size: cover;
         position: absolute;
         top: 0;

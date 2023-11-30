@@ -35,14 +35,12 @@ span {
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     margin: auto;
-    // background-image: url('../Body/fon3.jpg');
-    // background-size: cover;
     min-height: calc(100vh - 50px);
     align-content: center;
 
     &::after {
       content: "";
-      background-image: url('../Body/fon3.jpg');
+      background-image: $bg-image;
       background-size: cover;
       position: absolute;
       top: 0;

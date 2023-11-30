@@ -13,7 +13,7 @@
 
   &::after {
     content: "";
-    background-image: url('../Body/fon3.jpg');
+    background-image: $bg-image;
     background-size: cover;
     position: absolute;
     top: 0;

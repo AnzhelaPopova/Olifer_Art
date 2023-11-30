@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "/Olifer_Art/static/media/foto.01fa779dcc3733b3d460.png",
+        "title": "Фотография 1",
+        "category": "pillow"
+    },
+    {
+        "id": 2,
+        "image": "https://w.forfun.com/fetch/b2/b25665013f6f4500a51470dbc3b69f65.jpeg",
+        "title": "Фотография 2",
+        "category": "embroidery"
+    },
+    {
+        "id": 3,
+        "image": "./img/photo1.jpg",
+        "title": "Фотография 3",
+        "category": "pillow"
+    },
+    {
+        "id": 4,
+        "image": "./img/photo1.jpg",
+        "title": "Фотография 4",
+        "category": "pillow"
+    },
+    {
+        "id": 5,
+        "image": "./img/photo1.jpg",
+        "title": "Фотография 5",
+        "category": "embroidery"
+    },
+    {
+        "id": 6,
+        "image": "./img/photo1.jpg",
+        "title": "Фотография 6",
+        "category": "pillow"
+    },
+    {
+        "id": 7,
+        "image": "./img/photo1.jpg",
+        "title": "Фотография 7",
+        "category": "embroidery"
+    }
+]

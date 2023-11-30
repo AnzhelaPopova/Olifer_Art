@@ -1,3 +1,5 @@
+@import '../../assets/variables.scss';
+
 @font-face {
     font-family: "Inter";
     src: url(../../assets/fonts/Inter-Regular.ttf);
@@ -37,7 +39,7 @@
 
     &::after {
         content: "";
-        background-image: url('./fon3.jpg');
+        background-image: $bg-image;
         background-size: cover;
         position: absolute;
         top: 0;

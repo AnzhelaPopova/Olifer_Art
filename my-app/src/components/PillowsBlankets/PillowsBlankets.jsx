@@ -6,7 +6,7 @@ import './PillowsBlankets.scss';
 export default function PillowsBlankets() {
 
     return (
-        <div className='container'>
+        <div className='container  container__PillowsBlankets'>
             <h2>Подушки/Одеяла</h2>
             <div>
                 <p>В мастерской можно произвести сухую чистку перьевых подушек и реставрацию старых пуховых одеял.</p>

@@ -3,7 +3,7 @@
   background-color: white;
   border-radius: 10px;
   border: 2px solid rgb(229, 186, 193);
-  max-width: 300px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

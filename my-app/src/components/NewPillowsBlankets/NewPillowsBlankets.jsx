@@ -53,7 +53,7 @@ const Cards = [
 export default function NewPillowsBlankets() {
 
     return (
-        <div className='container'>
+        <div className='container container__NewPillowsBlankets'>
             <h2>Новые подушки/одеяла на заказ</h2>
             <p> В мастерской можно заказать изготовление новых подушек и одеял. В отличии от магазинных у изделий на заказ есть масса преимуществ.
             </p>
@@ -82,7 +82,7 @@ export default function NewPillowsBlankets() {
                             price={card.price}
                             description={card.description}
                             color={card.color}
-                            height={card.height}
+                            height="300px"
                         />
                     )
                 }

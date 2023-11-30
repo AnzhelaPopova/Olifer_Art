@@ -47,6 +47,9 @@ export default function Header() {
               <Link to="/Fancywork">Текстильные изделия</Link>
             </li>
             <li>
+              <Link to="/Gallery">Фотогалерея</Link>
+            </li>
+            <li>
               <Link to="/Questions">Вопросы</Link>
             </li>
             <li>

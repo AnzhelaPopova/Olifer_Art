@@ -19,6 +19,9 @@
     height: 50px;
     cursor: pointer;
   }
+  .cardHeader__desktop a {
+    text-decoration: none;
+  }
   .cardHeader__desktop ul {
     width: 60%;
     list-style: none;
@@ -66,6 +69,8 @@
   }
   .cardHeader__mbl img.logo_close {
     width: 30px;
+    align-self: flex-end;
+    margin: 0 17px;
   }
   .modal-main {
     display: flex;

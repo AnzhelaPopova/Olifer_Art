@@ -2,8 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-items: center;
-  padding: 0 1em;
+}
+.container__NewPillowsBlankets {
+  padding: 1em 0.5em 3em 0.5em;
+}
+.container__NewPillowsBlankets .blue-card {
+  height: 340px;
+}
+.container__NewPillowsBlankets .green-card {
+  height: 340px;
+}
+.container__NewPillowsBlankets .red-card {
+  height: 340px;
 }
 .container ul {
   padding: 0;
@@ -17,7 +27,7 @@
 }
 .container::after {
   content: "";
-  background-image: url("../Body/fon3.jpg");
+  background-image: url("../assets/images/fon3.jpg");
   background-size: cover;
   position: absolute;
   top: 0;

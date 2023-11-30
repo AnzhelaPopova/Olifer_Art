@@ -32,7 +32,7 @@
 }
 .body::after {
   content: "";
-  background-image: url("./fon3.jpg");
+  background-image: url("../assets/images/fon3.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
