@@ -1,3 +1,38 @@
-.gallery__card {
-    margin-top: 75px;
+@import '../../assets/variables.scss';
+
+.gallery {
+
+
+
+    &__title {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & img {
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    &__categories button {
+        margin-right: 10px;
+    }
+
+    &__categories button.active {
+        font-weight: bold;
+    }
 }

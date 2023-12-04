@@ -74,6 +74,7 @@ export default function Header() {
                 <Link to="/Fancywork" onClick={handleClosePopUp}>Текстильные изделия</Link>
                 <Link to="/Questions" onClick={handleClosePopUp}>Вопросы</Link>
                 <Link to="/Contact" onClick={handleClosePopUp}>Контакты</Link>
+                <Link to="/Gallery" onClick={handleClosePopUp}>Фотогалерея</Link>
               </PopUp>
             )}
           </div>

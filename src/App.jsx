@@ -12,8 +12,6 @@ import FAQItem from './components/FAQ/FAQItem';
 import Gallery from './components/Gallery/Gallery'
 
 import data from './components/FAQ/data.json'
-import photos from './components/Gallery/photos.json'
-
 
 export default function App() {
 
@@ -31,14 +29,8 @@ export default function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Clean" element={<Clean />} />
           <Route path="/Questions" element={<FAQItem questions={questions} />} />
-          <Route path="/Gallery" element={
-            photos.map((image) => (
-              <Gallery
-                image={image.image}
-              />))} />
-
+          <Route path="/Gallery" element={<Gallery />} />
         </Routes>
-
         <Footer />
       </div>
     </BrowserRouter >

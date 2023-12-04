@@ -1,3 +1,26 @@
-.gallery__card {
-  margin-top: 75px;
+.gallery__title {
+  margin-top: 50px;
+  text-align: center;
+}
+.gallery__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery__items img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.gallery__categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.gallery__categories button {
+  margin-right: 10px;
+}
+.gallery__categories button.active {
+  font-weight: bold;
 }/*# sourceMappingURL=Gallery.css.map */

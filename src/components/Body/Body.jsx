@@ -4,7 +4,7 @@ import './Body.scss';
 import { Link } from 'react-router-dom';
 import Contact from '../Contact/Contact'
 
-export default function Body(props) {
+export default function Body() {
   return (
     <div className='body' >
       <div className='body__item'>
